@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+}
+.navbar-container{
+    background-image: url('images/background.png');
+    height: 100vh;
+    background-size: cover;
+    width: auto;
+    
+}
+.navbar{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo{
+    height: 50px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin: 15px;
+    color: goldenrod;
+    cursor: pointer;
+    list-style: none;
+    
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.banner-btn{
+    border: none;
+    background-color: #FB9D5C;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.banner-title{
+    color: #FB9D5C;
+    font-size: 15px;
+}
+.after-banner li{
+    list-style: none;
+
+}
+.banner-left-side{
+    color: white;
+    text-align: center;
+
+}
+.banner-img{
+    height: 537px;
+}
+.after-banner{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 150px;
+    margin-top: 30px;
+    background-color: #F9F9F9;
+}
+.service-container{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-container h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.service-line{
+    text-align: center;
+}
+.service-card{
+    text-align: center;
+}
+.service-line img{
+    width: 8%;
+}
+.description{
+    width: 50%;
+    
+}
+.service{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.service-card{
+    width: 20%;
+    border: 1px solid gray;
+    padding: 5px;
+}
+.service-logo{
+    width: 25%;
+}
+
+.hire-section{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    
+}
+.hire-left{
+    width: 60%;
+
+}
+.hire-right{
+    width: 50%;
+    text-align: justify;
+}
+.hire-btn{
+    border: none;
+    padding: 5px;
+    background-color: #0dcaf0;
+    cursor: pointer;
+}
+.colored-text{
+    color: #FB9D5C;
+}
+.hire-description{
+    margin-top: 15px;
+    /* font-size: 20px; */
+}
+.hire-description2{
+    margin-top: 10px;
+}
+.hire-img{
+    /* height: 80%; */
+    width: 90%;
+}
+.consultation{
+    display: flex;
+    margin-top: 10px;
+   
+}
+i{
+    color: #FB9D5C;
+    margin: 5px;
+    font-size: 30px;
+}
+.footer-section{
+    background-color: #000000;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content{
+    color: #C0BABA;
+    text-align: center;
+    padding: 10px;
+}
+.upper{
+    display: flex;
+    justify-content: center;
+}
+.footer-description{
+    margin: 10px 0px;
+}
+.footer-logo{
+    width: 40px;
+}
+.footer-content li{
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 5px;
+ }
+ .address{
+    display: flex;
+    margin-bottom: 15px;
+ }
+ label{
+    color: #FB9D5C;
+ }
+
+ input::placeholder {
+    color: #FFFFFF; 
+}
+input{
+    background-color: #808080;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    margin-top: 10px;
+}
+.footer-title{
+    color: #FB9D5C;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px){
+    /* body{
+        background-color: #0dcaf0;
+    } */
+    .navbar-container{
+        max-width: 100%;
+        height: auto;    
+    }
+    .footer-content {
+        flex-basis: 100%;
+    }
+    .after-banner {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        
+    }
+    .after-banner-img{
+        /* width: 100%; */
+        padding-left: 30%;
+    }
+    .footer-section{
+        display: inline-block !important;
+    }
+    .service{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-card{
+        width: 90%;
+        margin: 12px;
+    }
+    .hire-section{
+        display: block;
+        padding: 20px;
+    }
+    .hire-img{
+        width: 100%;
+    }
+    .hire-left{
+        width: 100%;
+    }
+    .hire-right{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .banner-container{
+        display: inline;
+        /* margin: 180px; */
+    }
+}
